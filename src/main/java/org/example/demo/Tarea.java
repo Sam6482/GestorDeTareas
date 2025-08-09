@@ -12,5 +12,12 @@ public class Tarea {
         ALTA, MEDIA, BAJA
     }
 
+    public Tarea(int id, String titulo, String descripcion, Prioridad prioridad, LocalDate fechaLimite) {
+        this.id = id;
+        this.titulo = titulo;
+        this.descripcion = descripcion;
+        this.prioridad = prioridad;
+        this.fechaLimite = fechaLimite;
+    }
 
 }
