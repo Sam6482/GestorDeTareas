@@ -2,10 +2,9 @@ module org.example.demo {
     requires javafx.controls;
     requires javafx.fxml;
 
-    requires org.controlsfx.controls;
-    requires com.dlsc.formsfx;
-    requires org.kordamp.bootstrapfx.core;
-
+    // Abre tu paquete a javafx.fxml
     opens org.example.demo to javafx.fxml;
+
+    // Exporta tu paquete principal
     exports org.example.demo;
 }
